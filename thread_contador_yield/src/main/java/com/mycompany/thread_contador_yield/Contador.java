@@ -50,7 +50,7 @@ public class Contador implements Runnable {
         for (int i = 0; i < 10; i++) {
             conta(); // Chama o método conta() para incrementar o contador e imprimir o valor
             // Libera a CPU para outra thread com a mesma prioridade
-            Thread.yield();          
+           // Thread.yield();          
         }
         // Quando o loop termina, imprime uma mensagem indicando o término da execução desta instância de Contador
         System.out.println("Terminei " + nome);

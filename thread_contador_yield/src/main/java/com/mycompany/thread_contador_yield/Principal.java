@@ -20,6 +20,9 @@ public class Principal {
         
         t1.start();
         t2.start();
+        
+        //new Thread(t1).start();
+        //new Thread(t2).start();
 
     }
 }
